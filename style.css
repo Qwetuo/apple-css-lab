@@ -1,0 +1,102 @@
+body {
+    background: #F1F1F1;
+    font-family:'Lucida Grande', 'sans-serif';
+    font-size: 16px;
+
+}
+
+#content {
+    background-color: white;
+    border: 1px solid #AAAAAA;
+    width: 980px;
+    margin: auto;
+}
+
+#banner {
+    background-image: url("./images/hero.png");
+    height: 677px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding: 60px;
+    margin: auto;
+    text-align: right;
+}
+
+#banner h1 {
+    font-size: 60px;
+    margin: 0px;
+}
+
+#banner h2 {
+    font-size: 25px;
+    margin: 0px;
+    color:#666666;
+}
+
+a {
+    text-decoration: none;
+    color: #08c;
+}
+
+/* for my reference: suggested method
+.section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: 1px solid rgb(223,223,223);
+}
+
+*/
+
+
+.section{
+    clear: both;
+    box-sizing: border-box;
+    /* background: linear-gradient(rgb{240,240,240),white); */
+
+}
+
+#why-love {
+    height: 420px;
+    padding: 30px;
+    border-top: 0.5px solid #AAAAAA;
+    border-bottom: 0.5px solid #AAAAAA;
+}
+
+
+/* created my own id on html in order to use float...
+*/
+#why-float {
+    float: left;
+    padding-right: 20px;
+} 
+
+#retina > div {
+    width: 400px;
+    padding: 20px;
+    float: left
+}
+
+#retina-display {
+    float: right;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+
+
+table {
+    margin: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #aaa;
+    padding: 20px;
+}
+
+th {
+    text-align: left;
+}
+
+thead td {
+    text-align: center;
+}
